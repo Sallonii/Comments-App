@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  align-self: flex-start;
+  font-size: 40px;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textarea-input {
+  margin-top: 5px;
+}
+.img-style {
+  height: 30vh;
+}
+@media screen and (max-width: 767px) {
+  .content-container {
+    flex-direction: column;
+  }
+  .img-style {
+    order: -1;
+  }
+}
+.hr-line {
+  background-color: #475569;
+  width: 100%;
+}
+.comments-container {
+  display: flex;
+  align-items: center;
+}
+.count {
+  color: white;
+  background-color: #0284c7;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+  border-radius: 5px;
+}
